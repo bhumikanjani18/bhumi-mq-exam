@@ -148,7 +148,7 @@ header .nav-bar img{
     outline: none;
     border: none;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 900;
     border-radius: 10px;
     transition: all 0.3s linear;
 
@@ -186,3 +186,37 @@ header .nav-bar img{
     scale: 1.025;
 }
 /* room-card section end */
+
+
+/* footer section start */
+footer{
+    background-color: #94e065;
+}
+footer .col-6{
+    padding: 0 5px;
+}
+footer .footer-content input,
+footer .footer-content textarea{
+    padding: 15px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+footer .footer-content .sumbit{
+    padding: 10px 25px;
+    margin: 15px 0;
+    color: #fff;
+    background-color: blue;
+}
+footer .footer-content h1,
+footer .footer-content p{
+    padding: 0 20px;
+}
+footer .footer-content h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+footer .footer-content p{
+    font-size: 21px;
+}
+/* footer section end */
